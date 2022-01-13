@@ -1,11 +1,11 @@
 variable "resource_group_name"{
     descrption="This is the creation of demo resource group"
-    type="string"
+    type=string
     defalut="demo"
 }
 variable "location" {
     description ="location of the resource group"
-    type="string"
+    type=string
     default="east us"  
 }
 variable "tags" {
